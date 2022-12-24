@@ -73,16 +73,12 @@
 * <a href="https://java.com/en/download/help/release_changes.html" target="_blank">Java 8 </a> - Java version used<br>
 * <a href="https://maven.apache.org/">Maven</a> - Dependency Management
 * <a href="https://spring.io/projects/spring-boot">Spring Boot</a> - Back-End Framework used with the following dependencies:
-- Spring Boot DevTools
-- Spring Web MVC
-- Spring Security
-- Spring Data JPA
+    * Spring Boot DevTools
+    * Spring Web MVC
+    * Spring Security
+    * Spring Data JPA
 * HTML/CSS
-
-- Application Server used
-
-<a href="https://tomcat.apache.org/">Tomcat</a> Application Server used
-
-<a href="https://reactjs.org/">ReactJs </a> - JavaScript Library
+* Application Server used:
+    * <a href="https://tomcat.apache.org/">Tomcat</a> Application Server used
 
 ##### If you have questions or you need to correct the design of the system, because I did it very quickly, write in Telegram <a href="https://t.me/volodymyr_kaskiv/" target="_blank">@Volodymyr_kaskiv</a>
