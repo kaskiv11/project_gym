@@ -11,12 +11,13 @@
 
 >>npm install
 
-3. Open http://localhost:3650 to view it in the browser.
+3. Open http://localhost:8045 to view it in the browser.
 ## Accessibility and Testing
 
-1. To Log in the App, simply create an account via our Registration Page.
+1. Create a database "gym'
+2. To Log in the App, simply create an account via our Registration Page.
 
-2. Have a look at our test user with the following credentials:
+3. Have a look at our test user with the following credentials:
    -    username -> test@gmail.com
    - password -> 1234test
 
@@ -33,7 +34,7 @@
 - Spring Web MVC
 - Spring Security
 - Spring Data JPA
-*HTML/CSS
+* HTML/CSS
 
  - Application Server used
 
@@ -41,4 +42,4 @@
 
 <a href="https://reactjs.org/">ReactJs </a> - JavaScript Library
 
-#### If you have questions or you need to correct the design of the system, because I did it very quickly, write in Telegram @Volodymyr_kaskiv
+#### If you have questions or you need to correct the design of the system, because I did it very quickly, write in Telegram <a href="https://t.me/volodymyr_kaskiv/" target="_blank">@Volodymyr_kaskiv</a>
