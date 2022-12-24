@@ -9,7 +9,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Add plan</title>
+    <title>Додати план</title>
     <head>
         <link
                 rel="stylesheet"
@@ -38,7 +38,7 @@
                     <input  class="form-control"  name="purpose" type="text" placeholder="Purpose"
                             autofocus="true"/>
 
-                    <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Додавати план</button>
+                    <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Додати план</button>
 
 
                 </div>

@@ -24,10 +24,12 @@
     </head>
 <body>
 <jsp:include page="res/header.jsp"></jsp:include>
-<h3 class="text4">coach : ${pageContext.request.userPrincipal.name}
+<div class="text-return">
+    <h3 class="text4">coach : ${pageContext.request.userPrincipal.name}</h3>
     <sec:authorize access="isAuthenticated()">
     <h4><a href="/logout">Вийти</a></h4>
     </sec:authorize>
+</div>
     <div class="container">
         <div class="card card-container">
             <img class="profile-img-card" src="../image/addCategory.jpg" alt="" />
@@ -45,13 +47,13 @@
                            name="end" value="2020-06-12"
                            min="2020-06-12" max="2030-06-14">
 
-                    <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Додавати тренування</button>
+                    <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Додати тренування</button>
 
                 </div>
             </form>
         </div>
     </div>
-    <h4><a class="forgot-password" href="${pageContext.request.contextPath}/coach/main">Головна тренера</a></h4>
+    <h4><a class="text-return forgot-password" href="${pageContext.request.contextPath}/coach/main">Головна тренера</a></h4>
 
     <jsp:include page="res/footer.jsp"></jsp:include>
     <script

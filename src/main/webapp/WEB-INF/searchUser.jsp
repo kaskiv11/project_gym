@@ -22,11 +22,12 @@
             crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../css/coach.css"/>
+    <link rel="stylesheet" href="../css/login.css"/>
 </head>
 <body>
 
 <jsp:include page="res/header.jsp"></jsp:include>
-<h3 class="text4">coach : ${pageContext.request.userPrincipal.name}
+<h3 class="text-return text4">coach : ${pageContext.request.userPrincipal.name}
 <div class="container-fluid" style="margin-top: 93px;">
 
     <!-- Button trigger modal -->
@@ -99,7 +100,7 @@
     </table>
 
 </div>
-<h4><a class="forgot-password" href="${pageContext.request.contextPath}/coach/main">Головна тренера</a></h4>
+<h4><a class="text-return forgot-password" href="${pageContext.request.contextPath}/coach/main">Головна тренера</a></h4>
 
 <jsp:include page="res/footer.jsp"></jsp:include>
 

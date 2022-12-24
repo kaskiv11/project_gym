@@ -24,13 +24,13 @@
             <a href="https://twitter.com/?lang=uk"><i class="icon ion-social-twitter"></i></a>
             <a  href="https://www.facebook.com/"><i class="icon ion-social-facebook"></i></a></div>
         <ul class="list-inline">
-            <li class="list-inline-item"><a href="${pageContext.request.contextPath}/">Home</a></li>
-            <li class="list-inline-item"><a href="#">Services</a></li>
-            <li class="list-inline-item"><a href="${pageContext.request.contextPath}/aboutUs">About</a></li>
-            <li class="list-inline-item"><a href="#">Terms</a></li>
-            <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            <li class="list-inline-item"><a href="${pageContext.request.contextPath}/">Головна</a></li>
+            <li class="list-inline-item"><a href="${pageContext.request.contextPath}/сhoiceSubsription">Абонементи</a></li>
+            <li class="list-inline-item"><a href="${pageContext.request.contextPath}/aboutUs">Про нас</a></li>
+            <li class="list-inline-item"><a href="${pageContext.request.contextPath}/addPlan">Тренування</a></li>
+            <li class="list-inline-item"><a href="#">Приватна політика</a></li>
         </ul>
-        <p class="copyright">BiathlonClub © 2021</p>
+        <p class="copyright">GymClub © 2022</p>
     </footer>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -39,5 +39,3 @@
 
 </html>
 
-<!-- credit to https://epicbootstrap.com/snippets/footer-basic -->
-<!-- ./Footer -->

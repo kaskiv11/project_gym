@@ -29,16 +29,16 @@
 <jsp:include page="res/header.jsp"></jsp:include>
 <div class="container">
     <div class="card card-container">
-        <img class="profile-img-card" src="https://i.kagutech.com/img/kompyuteri/446/kak-sozdat-login-i-parol-dlya-registracii-2.jpg" alt="" />
+        <img class="profile-img-card" src="https://images.unian.net/photos/2021_02/thumb_files/400_0_1613035213-3687.jpg?r=350257" alt="" />
         <form class="form-signin" method="POST" action="/j_spring_security_check">
-            <h2>Вхід в систему</h2>
+            <h2>Увійти в систему</h2>
             <div>
                 <input  class="form-control"  name="username" type="text" placeholder="Username"
                         autofocus="true"/>
                 <form:errors path="password"></form:errors>
                 ${userError}
                 <input class="form-control" name="password" type="password" placeholder="Password"/>
-                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Log In</button>
+                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Увійти</button>
 <sec:authorize access="isAuthenticated()">
                 <h4><a class="forgot-password" href="/registration">Реєстрація</a></h4>
 </sec:authorize>

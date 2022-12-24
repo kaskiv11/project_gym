@@ -29,19 +29,21 @@
 <body class="lom">
 <jsp:include page="res/header.jsp"></jsp:include>
 
-<h4 class="text4"> Вибір тренера</h4>
-<h3 class="text4">coach : ${pageContext.request.userPrincipal.name}
+<div class="text-return">
+<h1  style="text-align: center; tab-size: inherit;  color: #fdeaea"> Вибір тренера</h1>
+    <h3 class="text4">coach : ${pageContext.request.userPrincipal.name}</h3>
     <sec:authorize access="isAuthenticated()">
     <h4><a href="/logout">Вийти</a></h4>
     </sec:authorize>
+</div>
 <table class="table table-striped table-bordered table-dark">
     <thead>
     <tr>
-        <th scope="col">Lastname</th>
-        <th scope="col">Firstname </th>
-        <th scope="col">Phone</th>
-        <th scope="col">Awards</th>
-        <th scope="col">Description</th>
+        <th scope="col">Прізвище</th>
+        <th scope="col">Ім'я </th>
+        <th scope="col">Номер</th>
+        <th scope="col">Заслуги</th>
+        <th scope="col">Коротка інформація</th>
 
 
     </tr>
@@ -60,7 +62,7 @@
                 <form action="${pageContext.request.contextPath}/chooseCoach" method="post">
                     <input type="hidden" name="coachId" value="${coach.id}"/>
                     <input type="hidden" name="action" value="addCoach"/>
-                    <button class="btn btn-secondary" type="submit">Сhoose  coach</button>
+                    <button class="btn btn-secondary" type="submit">Вибір тренера</button>
                 </form>
 
             </td>

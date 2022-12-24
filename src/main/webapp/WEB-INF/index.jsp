@@ -18,10 +18,15 @@
             integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y="
             crossorigin="anonymous"
     />
+
     <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/response.css">
+
 
 </head>
+
 <body >
+
 
 <jsp:include page="res/header.jsp"></jsp:include>
 <nav class="nav2 ">
@@ -41,7 +46,7 @@
 <div class="container-fluid" style="margin-top: 16px;">
     <div class="row justify-content-center">
         <div class="col-sm" style="text-align: center;">
-            <h1 class="who-title">Who are we?</h1>
+            <h1 style="color: black">Хто ми?</h1>
             <span class="line"></span>
         </div>
     </div>
@@ -49,10 +54,10 @@
 <div class="container" style="margin-top: 40px; margin-bottom: 70px;">
     <div class="row justify-content-center">
         <div class="col-sm-6">
-            <img src="../image/admiration.jpg" style="width: 100%;" alt="">
+            <img src="https://hiitworks.com/wp-content/uploads/2020/03/vyacheslav-volejnyk-hiitworks-foto.jpg" style="width: 100%;" alt="">
         </div>
         <div class="col-sm-6">
-            <p class="who-text">We teach people to ski biathlon rifle shooting.<br> We want to make you a world-class athlete.<br><br>Want to know more and try our system for 7 days for FREE?</p>
+            <p class="who-text">Ми тренуємося найкращих, а ви стаєте кращими з нами.<br> Ми хочемо зробити з вас спортсмена світового рівня.<br><br>Хочете дізнатися більше та спробувати нашу систему протягом 7 днів БЕЗКОШТОВНО?</p>
             <sec:authorize access="!isAuthenticated()">
             <button class="who-btn">
                 <a href="/registration"><span  class="who-btn-text">Реєстрація</span></a>
@@ -65,7 +70,7 @@
 <div class="container-fluid" style="margin-top: 16px;">
     <div class="row justify-content-center">
         <div class="col-sm" style="text-align: center;">
-            <h1 class="who-title">We invite you to the team of coaches</h1>
+            <h1 class="who-title">Запрошуємо в команду тренерів</h1>
             <span class="line"></span>
         </div>
     </div>
@@ -73,10 +78,10 @@
 <div class="container" style="margin-top: 40px; margin-bottom: 70px;">
     <div class="row justify-content-center">
         <div class="col-sm-6">
-            <img src="https://www.depo.ua/uploads/239580/conversions/ca69039dffa4015518c251f8e102e69a-wide-big.jpg" style="width: 100%;" alt="">
+            <img src="https://hop-sport.ua/image/catalog/information/24.jpg" style="width: 100%;" alt="">
         </div>
         <div class="col-sm-6">
-            <p class="who-text">if you have experience training biathletes then we invite you to our wonderful and friendly team. We are waiting for you)</p>
+            <p class="who-text">Якщо у вас є досвід тренувань у зал та роботи зі спортсменами, то запрошуємо вас у нашу чудову та дружню команду.<p> <b>Ми чекаємо на Вас!!!!👌</b></p></p>
             <sec:authorize access="!isAuthenticated()">
             <button class="who-btn">
                 <a href="/registrationCoach"><span  class="who-btn-text">Реєcтрація</span></a>
@@ -87,10 +92,28 @@
             </sec:authorize>
         </div>
     </div>
-</div>
 
 </div>
+    <h1 class="who-title" style="align-content: center">Відгуки клієтів</h1>
+    <div class="containers">
+        <img class="img"  src="https://content2.rozetka.com.ua/goods/images/original/183586739.jpg" alt="Avatar" style="width:90px">
+        <p><span class="span">Христина Next.</span> Відвідувач.</p>
+        <p>Тренуюся давно, дуже задоволена.</p>
+    </div>
+
+    <div class="containers">
+        <img class="img" src="https://cdn.create.vista.com/api/media/small/425569416/stock-photo-the-man-covers-his-face" alt="Avatar" style="width:90px">
+        <p><span  class="span">Петро Миколів.</span> Відвідувач залу.</p>
+        <p>Тренуюся 2 роки. Команда чудова))</p>
+    </div>
+</div>
+
+
+
+
 <jsp:include page="res/footer.jsp"></jsp:include>
 </h3>
 </body>
+
+
 </html>

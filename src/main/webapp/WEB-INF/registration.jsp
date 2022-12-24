@@ -11,18 +11,20 @@
     <title>Реєстрація</title>
     <link
             rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+
             integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y="
             crossorigin="anonymous"
     />
 
     <link rel="stylesheet" href="../../css/login.css">
 
+
 </head>
 
 <body>
 <jsp:include page="res/header.jsp"></jsp:include>
-<div class="container">
+
+<div class="lom">
     <div class="card card-container">
         <img class="profile-img-card" src="http://ukrainepravo.com/upload/iblock/4d2/4d2ce852cbd873b94fb5df5453ef5502.jpg" alt="" />
         <form:form modelAttribute="userModel" class="form-signin"  method="POST" action="/registration">

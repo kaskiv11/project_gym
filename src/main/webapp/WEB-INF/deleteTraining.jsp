@@ -10,7 +10,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Delete training</title>
+    <title>Видалити тренування</title>
 </head>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
@@ -28,13 +28,15 @@
 
 </head>
 <body class="lom">
-<jsp:include page="res/header.jsp"></jsp:include>
-<h3 class="text4">coach : ${pageContext.request.userPrincipal.name}
-    <sec:authorize access="isAuthenticated()">
-    <h4><a href="/logout">Вийти</a></h4>
-    </sec:authorize>
-    <h4 class="text4"> Видалити тренування за потреби </h4>
 
+<jsp:include page="res/header.jsp"></jsp:include>
+<div class="text-return" style="width: 400px">
+<h3 class="text4 text-return ">coach : ${pageContext.request.userPrincipal.name}</h3>
+    <sec:authorize access="isAuthenticated()">
+    <h4 class="text-return"><a href="/logout">Вийти</a></h4>
+    </sec:authorize>
+    <h4 class=" text-return text4"> Видалити тренування за потреби </h4>
+</div>
     <table class="table table-striped table-bordered table-dark">
         <thead>
         <tr>
@@ -64,7 +66,7 @@
         </c:forEach>
         </tbody>
     </table>
-    <h4><a class="forgot-password" href="${pageContext.request.contextPath}/coach/main">Головна тренера</a></h4>
+    <h4><a class="text-return forgot-password" href="${pageContext.request.contextPath}/coach/main">Головна тренера</a></h4>
 
 
     <jsp:include page="res/footer.jsp"></jsp:include>

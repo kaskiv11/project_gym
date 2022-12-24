@@ -195,11 +195,12 @@ margin-bottom: 5px;
 .text-p{
     font-family: "Times New Roman";
     font-size: 22px;
-    color: #4c0f94;
+    color: #150101;
     text-align: left !important;
 }
 .body-m{
-    background-color: #ffa746;
+
+    background:url(//www.exercise.co.uk/wp/wp-content/uploads/2019/05/The-Pros-and-Cons-of-a-Gym-Membership-Main.jpg)
 }
 .image-3{
     width: 600px;
@@ -246,7 +247,7 @@ line-height: 59px;
   
 align-items: center;
 
-color: #000000;
+color: #bfeadb;
 text-align: center;
 }
 

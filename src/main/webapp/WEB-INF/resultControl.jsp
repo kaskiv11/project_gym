@@ -20,7 +20,7 @@
 </head>
 <body>
 <jsp:include page="res/header.jsp"></jsp:include>
-<h3 class="text4">user : ${pageContext.request.userPrincipal.name} `        `zxcxz
+<h3 class="text4">user : ${pageContext.request.userPrincipal.name}
 <sec:authorize access="isAuthenticated()">
     <h4><a href="/logout">Вийти</a></h4>
 

@@ -23,19 +23,20 @@
 <div>
     <div class="header-dark">
         <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
-            <div class="container"><a class="navbar-brand" href="#">Biathlon<span class="colo-b">C</span>lub</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="container"><a class="navbar-brand" href="#">Gym<span class="colo-b">C</span>lub</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse"
                      id="navcol-1">
                     <ul class="nav navbar-nav">
                         <li class="nav-item" role="presentation"><a class="nav-link" href="${pageContext.request.contextPath}/">Home</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="${pageContext.request.contextPath}/aboutUs">About us</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="${pageContext.request.contextPath}/chooseCoach">Couch</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="${pageContext.request.contextPath}/addPlan">Plan</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="${pageContext.request.contextPath}/resultControl">Result</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="${pageContext.request.contextPath}/coach/main">For the coach</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="${pageContext.request.contextPath}/aboutUs">Про нас</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="${pageContext.request.contextPath}/сhoiceSubsription">Абонементи</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="${pageContext.request.contextPath}/chooseCoach">Тренери</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="${pageContext.request.contextPath}/addPlan">План</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="${pageContext.request.contextPath}/resultControl">Результати</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="${pageContext.request.contextPath}/coach/main">Для тренера</a></li>
 
                     <sec:authorize access="!isAuthenticated()">
-                    <a class="btn btn-light action-button" role="button" href="${pageContext.request.contextPath}/login">Login</a><a class="btn btn-light action-button" role="button" href="${pageContext.request.contextPath}/registration">Sign Up</a>
+                    <a class="btn btn-light action-button" role="button" href="${pageContext.request.contextPath}/login">Login</a><a class="btn btn-light action-button" role="button" href="${pageContext.request.contextPath}/registration">Реєстрація</a>
                     </sec:authorize>
     </div>
             </div>
@@ -43,7 +44,7 @@
         <div class="container hero">
             <div class="row">
                 <div class="col-md-8 offset-md-2">
-                    <h1 class="text-t">You can achieve high results with us</h1>
+                    <h1 class="text-t">З нами ви зможете досягти високих результатів😊</h1>
                     <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item"></iframe></div>
                 </div>
             </div>

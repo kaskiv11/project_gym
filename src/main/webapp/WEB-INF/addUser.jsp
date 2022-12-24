@@ -26,12 +26,12 @@
 <body>
 
 <jsp:include page="res/header.jsp"></jsp:include>
-<h3 class="text4">coach : ${pageContext.request.userPrincipal.name}
+<h3 class="text4 text-return">coach : ${pageContext.request.userPrincipal.name}
     <sec:authorize access="isAuthenticated()">
-    <h4><a href="/logout">Вийти</a></h4>
+    <h4 class="text-return"><a href="/logout">Вийти</a></h4>
     </sec:authorize>
 <div class="container" style="margin-top: 93px; margin-bottom: 70px;">
-    <h2 style="margin-bottom: 30px; color: #f23849;  text-align: center;">Додати нового користувача</h2>
+    <h2 class="text-return" style="margin-bottom: 30px; color: #f23849;  text-align: center;">Додати нового користувача</h2>
     <form method="post" action="${pageContext.request.contextPath}/coach/addUser">
         <div class="form-row">
             <div class="form-group col-md-6">
@@ -87,7 +87,7 @@
         <button type="submit" class="btn btn-primary">Зареєструвати нового користувача</button>
     </form>
 </div>
-<h4><a class="forgot-password" href="${pageContext.request.contextPath}/coach/main">Головна тренера</a></h4>
+<h4><a class="text-return forgot-password" href="${pageContext.request.contextPath}/coach/main">Головна тренера</a></h4>
 
 <jsp:include page="res/footer.jsp"></jsp:include>
 
