@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.kaskiv</groupId>
-	<artifactId>biathlonTrainingProject</artifactId>
+	<artifactId>gymTrainingProject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>biathlonTrainingProject</name>
+	<name>gymTrainingProject</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
